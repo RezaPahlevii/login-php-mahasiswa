@@ -40,7 +40,7 @@ if ($_SESSION['id'] == null) {
                         <a class="nav-link" href="<?= BASE_URL . 'dashboard.php?page=create' ?>">Add</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= BASE_URL . 'process/process_logout.php' ?>">Logout</a>
+                        <a class="nav-link" href="<?= BASE_URL . 'process/process_logout.php' ?>">Logout </a>
                     </li>
                 </ul>
             </div>
