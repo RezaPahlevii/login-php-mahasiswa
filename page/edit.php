@@ -31,7 +31,7 @@ $mahasiswa = mysqli_fetch_array(mysqli_query($koneksi, "SELECT * FROM mahasiswa 
                 <input type="text" name="nama" class="form-control" id="nama" value="<?= $mahasiswa['nama'] ?>">
             </div>
             <div class="mb-3">
-                <label for="noid" class="form-label">Nomor ID</label>
+                <label for="noid" class="form-label">NIM</label>
                 <input type="number" name="noid" class="form-control" id="noid" value="<?= $mahasiswa['noid'] ?>">
             </div>
             <div class=" mb-3">
